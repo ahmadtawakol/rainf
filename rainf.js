@@ -81,7 +81,7 @@
         var height = random(16*o.size, 32*o.size);
 				drops.push({
 					x: random(0, self.width),
-					y: random((self.height/5)*-1, height*-1),
+					y: random(0, self.height),
 					width: o.size,
 					height: height,
 					velY: o.speed,
